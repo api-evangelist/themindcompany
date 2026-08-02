@@ -1,7 +1,27 @@
 aid: themindcompany
-name: Themindcompany
-description: Themindcompany is a company surfaced as a portfolio company of felicis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/themindcompany.png
+name: The Mind Company
+description: >-
+  The Mind Company is a consumer mental-fitness company that builds a multi-app
+  platform for cognitive and emotional wellbeing. Its apps include Elevate
+  (cognitive training across memory, vocabulary, math, and more), Balance
+  (personalized meditation for sleep, stress, and focus), and Spark (puzzle-based
+  learning). The company is a portfolio company of Felicis and was added to the
+  API Evangelist network as a company profile. As a direct-to-consumer mobile app
+  business, The Mind Company publishes no public API, developer portal, SDKs, or
+  developer documentation; this profile captures its identity, public web
+  properties, and probed security posture.
 url: https://raw.githubusercontent.com/api-evangelist/themindcompany/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mental Health
+- Wellness
+- Cognitive Training
+- Meditation
+- Consumer Apps
+- Mobile
+- EdTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://themindcompany.com
+- type: Blog
+  url: https://themindcompany.com/blog
+- type: Support
+  url: https://themindcompany.com/help
+- type: HelpCenter
+  url: https://themindcompany.com/help
+- type: PrivacyPolicy
+  url: https://themindcompany.com/privacy
+- type: TermsOfService
+  url: https://themindcompany.com/terms
+- type: DomainSecurity
+  url: security/themindcompany-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
